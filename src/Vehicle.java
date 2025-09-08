@@ -12,7 +12,8 @@ public class Vehicle {
 
      public void setColor(String color_input)
      {
-         color = color_input;
+         if(color_input != null)
+             color = color_input;
      }
      public String getColor()
      {
