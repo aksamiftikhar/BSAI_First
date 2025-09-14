@@ -1,5 +1,4 @@
 
-
 public class Main {
     public static float computeRoot(float a, float b, float c)
     {
@@ -17,16 +16,30 @@ public class Main {
             return root;
         }
     }
-    public static void main(String[] args) {
-        Vehicle v1 = new Vehicle();
-        Vehicle v2 = new Vehicle();
-        v2.year = 2025;
-//        v1.color = "red";
-        v1.year = 2020;
-        v1.make = "Suzuki";
+    public static void test(PrimitiveTest p1)
+    {
+        System.out.println("Testing primitive test");
+        System.out.println(p1.x);
 
-        v1.display();
-        v2.display();
+        p1.x = 1;
+        System.out.println(p1.x);
+    }
+    public static void main(String[] args) {
+        PrimitiveTest pMain = new PrimitiveTest();
+        test(pMain);
+        test(new PrimitiveTest());
+
+        System.out.println(pMain.x);
+
+//        Vehicle v1 = new Vehicle();
+//        Vehicle v2 = new Vehicle();
+//        v2.year = 2025;
+////        v1.color = "red";
+//        v1.year = 2020;
+//        v1.make = "Suzuki";
+//
+//        v1.display();
+//        v2.display();
 
 //        System.out.println(v1.color);
 //        System.out.println(v1.year);
