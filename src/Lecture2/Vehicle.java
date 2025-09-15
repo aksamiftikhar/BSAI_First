@@ -1,3 +1,4 @@
+package Lecture2;
 public class Vehicle {
      String make;
      String model;

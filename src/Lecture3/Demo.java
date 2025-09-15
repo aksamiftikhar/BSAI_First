@@ -1,3 +1,5 @@
+package Lecture3;
+
 import java.util.prefs.BackingStoreException;
 
 public class Demo {

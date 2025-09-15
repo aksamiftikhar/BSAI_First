@@ -1,3 +1,4 @@
+package Lecture4_done;
 public class UniversityStudent {
 
     // ---------- Static (class) fields ----------

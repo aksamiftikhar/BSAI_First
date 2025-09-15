@@ -1,3 +1,4 @@
+package Lecture3;
 public class PrimitiveTest {
     int x;
     char ch;
