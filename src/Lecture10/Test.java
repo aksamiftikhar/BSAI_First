@@ -6,8 +6,8 @@ public class Test {
     int x;
 
     final int f;
-
     {
+
         f = 100;
         System.out.println("f init in non-static init block = " + f);
     }
