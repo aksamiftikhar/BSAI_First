@@ -1,4 +1,4 @@
-package com.example.lecture23_eventhandlingjavafx.chapter15;
+package Lecture21.JavaFX_HelloWorld.src.main.java.com.example.javafx_helloworld;
 
 public class TestClass  {
     public static void main(String[] args)
